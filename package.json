@@ -1,0 +1,26 @@
+{
+  "name": "creator-cli-template",
+  "version": "1.0.0",
+  "description": "Module for creating CLI templates",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenyiFedotov/creator-cli-template.git"
+  },
+  "keywords": [
+    "create",
+    "cli",
+    "template",
+    "creator"
+  ],
+  "author": "Evgenyi Fedotov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvgenyiFedotov/creator-cli-template/issues"
+  },
+  "homepage": "https://github.com/EvgenyiFedotov/creator-cli-template#readme",
+  "devDependencies": {}
+}
