@@ -1,10 +1,11 @@
 {
   "name": "creator-cli-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Module for creating CLI templates",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,12 @@
     "url": "https://github.com/EvgenyiFedotov/creator-cli-template/issues"
   },
   "homepage": "https://github.com/EvgenyiFedotov/creator-cli-template#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "chalk-pipe": "^2.0.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "load-json-file": "^5.1.0",
+    "mkdirp": "^0.5.1"
+  },
+  "dependencies": {}
 }
